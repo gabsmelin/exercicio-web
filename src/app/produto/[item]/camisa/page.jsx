@@ -1,8 +1,9 @@
 import Image from "next/image"
+import '../../../components/ScssProdutos/produtos.scss'
 
-export default function Camisa() {
+export default function Camisa({params}) {
     return(
-        <div>
+        <div className="container-prod">
             <div>
                 <h1>CAMISETAS</h1>
                 <h5>AS CAMISETAS MAIS BONITAS DA QUEBRADA VOCÊ SÓ ENCONTRA AQUI!</h5>

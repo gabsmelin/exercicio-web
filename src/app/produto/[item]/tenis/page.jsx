@@ -1,8 +1,9 @@
 import Image from "next/image"
+import '../../../components/ScssProdutos/produtos.scss'
 
-export default function Tenis() {
+export default function Tenis({params}) {
     return(
-        <div>
+        <div className="container-prod">
              <div>
                 <h1>TÊNIS</h1>
                 <h5>OS TÊNIS MAIS BONITAS DA QUEBRADA VOCÊ SÓ ENCONTRA AQUI!</h5>
